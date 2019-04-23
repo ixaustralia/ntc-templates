@@ -1,0 +1,7 @@
+Value MAC ((([a-fA-F0-9]{2}[:|\-]){5}[a-fA-F0-9]{2}))
+Value VLAN ([\w_-]+)
+Value VLANID ([\d]+)
+Value PORT ([\W\d]+)
+
+Start
+  ^${MAC}\s+${VLAN}\(${VLANID}\).*\s\s\s\s+${PORT} -> Record

@@ -1,0 +1,11 @@
+---
+parsed_sample:
+- mac: "00:1c:42:f2:d4:23"
+  vlan: "PE1-PE2"
+  vlanid: 4093
+  port: 1
+
+- mac: "22:22:22:22:22:21"
+  vlan: "CUST1"
+  vlanid: 4091
+  port: 2

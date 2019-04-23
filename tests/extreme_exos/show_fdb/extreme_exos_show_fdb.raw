@@ -1,0 +1,14 @@
+Mac                     Vlan       Age  Flags           Port / Virtual Port List
+--------------------------------------------------------------------------------
+00:1c:42:f2:d4:23    PE1-PE2(4093) 0000  d mi          1
+22:22:22:22:22:21     CUST1(4091) 0000  spm           2
+
+Flags : d - Dynamic, s - Static, p - Permanent, n - NetLogin, m - MAC, i - IP,
+        x - IPX, l - lockdown MAC, L - lockdown-timeout MAC, M- Mirror, B - Egress Blackhole,
+        b - Ingress Blackhole, v - MAC-Based VLAN, P - Private VLAN, T - VLAN translation,
+        D - drop packet, h - Hardware Aging, o - IEEE 802.1ah Backbone MAC,
+        S - Software Controlled Deletion, r - MSRP,
+        X - VXLAN, Z - OpenFlow
+
+Total: 2 Static: 1  Perm: 1  Dyn: 1  Dropped: 0  Locked: 0  Locked with Timeout: 0
+FDB Aging time: 300
