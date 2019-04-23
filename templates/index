@@ -276,6 +276,7 @@ dell_force10_show_version.template, .*, dell_force10, sh[[ow]] ver[[sion]]
 dell_force10_show_vlan.template, .*, dell_force10, sh[[ow]] vl[[an]]
 dell_force10_show_arp.template, .*, dell_force10, sh[[ow]] ar[[p]]
 
+extreme_exos_show_l2vpn_vpws_detail.template, .*, extreme_exos, sh[[ow]] l2v[[pn]] vpw[[s]] d[[etail]]
 extreme_exos_show_fdb.template, .*, extreme_exos, sh[[ow]] fdb
 
 hp_comware_display_mac-address.template, .*, hp_comware, di[[splay]] mac-ad[[dress]]

@@ -1,0 +1,26 @@
+Value NAME (.*)
+Value VPNID (\d+)
+Value PWINDEX (\d+)
+Value PWSIGNAL (\w+)
+Value PWUPTIME (.*)
+Value ADMINSTATE (\w+)
+Value OPERSTATE (\w+)
+Value PWSTATE (\w+)
+Value SRCADDR ((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
+Value DSTADDR ((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
+Value MTU (\d+)
+Value ETHERTYPE (0x\d+)
+Value VLAN (.*)
+
+Start
+  ^L2VPN Name:\s${NAME}
+  ^\s+VPN\sID\s+:\s${VPNID}\s+Admin\sState\s+:\s${ADMINSTATE}
+  ^\s+Source\sAddress\s+:\s${SRCADDR}\s+Oper\sState\s+:\s${OPERSTATE}
+  ^\s+VCCV\sStatus.*MTU\s+:\s${MTU}
+  ^\s+VCCV\sInterval.*Ethertype\s+:\s${ETHERTYPE}
+  ^\s+Service\sInterface\s+:\s${VLAN}
+  ^\s+Peer\sIP:\s${DSTADDR}
+  ^\s+PW\sState\s+:\s${PWSTATE}
+  ^\s+PW\sIndex\s+:\s${PWINDEX}
+  ^\s+PW\sSignaling\s+:\s${PWSIGNAL}
+  ^\s+PW\sUptime\s+:\s${PWUPTIME} -> Record

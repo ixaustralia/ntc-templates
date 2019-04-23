@@ -1,0 +1,84 @@
+L2VPN Name: vll_AS65535-1000-INTER
+   VPN ID                : 1000                  Admin State   : Enabled
+   Source Address        : 10.211.55.101         Oper State    : Enabled
+   VCCV Status           : Disabled              MTU           : 9100
+   VCCV Interval Time    : 5 sec.                Ethertype     : 0x8100
+   VCCV Fault Multiplier : 4                     .1q tag       : exclude
+   L2VPN Type            : VPWS                  Redundancy    : None
+   Service Interface     : AS65535-1000-INTER
+   Created By            : CLI
+
+   Peer IP: 10.211.55.102
+      PW State           : Up
+      PW Index           : 10022
+      PW Signaling       : LDP
+      PW Uptime          : 0d:4h:19m:11s
+      PW Installed       : True
+      Local PW Status    : No Faults
+      Remote PW Status   : No Faults
+      Remote I/F MTU     : 9100
+      PW Mode            : Core-to-Core
+      Transport LSP      : LDP LSP (Not Configured)
+         Next Hop I/F    : PE1-PE2
+         Next Hop Addr   : 172.16.1.2                Tx Label  : 0x000ac
+         Tx Pkts         : n/a                       Tx Bytes  : n/a
+      PW Rx Label        : 0x000ad                PW Tx Label  : 0x000ad
+      PW Rx Pkts         : n/a                    PW Tx Pkts   : 0
+      PW Rx Bytes        : n/a                    PW Tx Bytes  : 0
+      MAC Limit          : No Limit
+      VCCV HC Status     : Not Sending (VCCV Not Enabled For This L2VPN)
+         CC Type         : Rtr Alert           Total Pkts Sent : 0
+         CV Type         : LSP Ping            Total Pkts Rcvd : 0
+         Send Next Pkt   : --
+         Total Failures  : 0          Pkts During Last Failure : 0
+         Last Failure Tm : --
+
+L2VPN Name: vll_AS65535-1001-INTER
+   VPN ID                : 1001                  Admin State   : Enabled
+   Source Address        : 10.211.55.101         Oper State    : Enabled
+   VCCV Status           : Disabled              MTU           : 9100
+   VCCV Interval Time    : 5 sec.                Ethertype     : 0x8100
+   VCCV Fault Multiplier : 4                     .1q tag       : exclude
+   L2VPN Type            : VPWS                  Redundancy    : None
+   Service Interface     : AS65535-1001-INTER
+   Created By            : CLI
+
+   Peer IP: 10.211.55.102
+      PW State           : Up
+      PW Index           : 10023
+      PW Signaling       : LDP
+      PW Uptime          : 0d:1h:1m:1s
+      PW Installed       : True
+      Local PW Status    : No Faults
+      Remote PW Status   : No Faults
+      Remote I/F MTU     : 9100
+      PW Mode            : Core-to-Core
+      Transport LSP      : LDP LSP (Not Configured)
+         Next Hop I/F    : PE1-PE2
+         Next Hop Addr   : 172.16.1.2                Tx Label  : 0x000ac
+         Tx Pkts         : n/a                       Tx Bytes  : n/a
+      PW Rx Label        : 0x000ad                PW Tx Label  : 0x000ad
+      PW Rx Pkts         : n/a                    PW Tx Pkts   : 0
+      PW Rx Bytes        : n/a                    PW Tx Bytes  : 0
+      MAC Limit          : No Limit
+      VCCV HC Status     : Not Sending (VCCV Not Enabled For This L2VPN)
+         CC Type         : Rtr Alert           Total Pkts Sent : 0
+         CV Type         : LSP Ping            Total Pkts Rcvd : 0
+         Send Next Pkt   : --
+         Total Failures  : 0          Pkts During Last Failure : 0
+         Last Failure Tm : --
+
+
+----------------------------------------
+
+Total number of configured L2VPNs:    2
+Total number of active L2VPNs:        1
+
+Total number of configured PWs:       2
+Total number of active PWs:           1
+Total number of ready PWs:            0
+PWs auto-selecting transport LSP:     1
+PWs configured with a transport LSP:  0
+PWs using LDP for transport:          1
+PWs using RSVP for transport:         0
+PWs using static for transport:       0

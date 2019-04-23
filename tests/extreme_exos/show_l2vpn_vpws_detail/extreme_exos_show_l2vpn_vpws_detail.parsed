@@ -1,0 +1,28 @@
+---
+parsed_sample:
+- vpnid: 1000
+  pwsignal: 'LDP'
+  pwstate: 'Up'
+  ethertype: '0x8100'
+  pwuptime: '0d:4h:19m:11s'
+  operstate: 'Enabled'
+  pwindex: 10022
+  mtu: 9100
+  srcaddr: '10.211.55.101'
+  adminstate: 'Enabled'
+  dstaddr: '10.211.55.102'
+  vlan: 'AS65535-1000-INTER'
+  name: 'vll_AS65535-1000-INTER'
+- vpnid: 1001
+  pwsignal: 'LDP'
+  pwstate: 'Up'
+  ethertype: '0x8100'
+  pwuptime: '0d:1h:1m:1s'
+  operstate: 'Enabled'
+  pwindex: 10023
+  mtu: 9100
+  srcaddr: '10.211.55.101'
+  adminstate: 'Enabled'
+  dstaddr: '10.211.55.102'
+  vlan: 'AS65535-1001-INTER'
+  name: 'vll_AS65535-1001-INTER'
