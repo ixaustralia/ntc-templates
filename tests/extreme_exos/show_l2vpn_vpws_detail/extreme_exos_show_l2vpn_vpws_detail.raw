@@ -57,7 +57,7 @@ L2VPN Name: vll_AS65535-1001-INTER
          Next Hop I/F    : PE1-PE2
          Next Hop Addr   : 172.16.1.2                Tx Label  : 0x000ac
          Tx Pkts         : n/a                       Tx Bytes  : n/a
-      PW Rx Label        : 0x000ad                PW Tx Label  : 0x000ad
+      PW Rx Label        : 0x000ac                PW Tx Label  : 0x000ac
       PW Rx Pkts         : n/a                    PW Tx Pkts   : 0
       PW Rx Bytes        : n/a                    PW Tx Bytes  : 0
       MAC Limit          : No Limit
@@ -72,7 +72,7 @@ L2VPN Name: vll_AS65535-1001-INTER
 ----------------------------------------
 
 Total number of configured L2VPNs:    2
-Total number of active L2VPNs:        1
+Total number of active L2VPNs:        2
 
 Total number of configured PWs:       2
 Total number of active PWs:           1

@@ -1,16 +1,16 @@
-Value NAME (.*)
+Value NAME (\S+)
 Value VPNID (\d+)
 Value PWINDEX (\d+)
-Value PWSIGNAL (\w+)
+Value PWSIGNAL (\S+)
 Value PWUPTIME (.*)
-Value ADMINSTATE (\w+)
-Value OPERSTATE (\w+)
-Value PWSTATE (\w+)
+Value ADMINSTATE (\S+)
+Value OPERSTATE (\S+)
+Value PWSTATE (\S+)
 Value SRCADDR ((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
 Value DSTADDR ((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
 Value MTU (\d+)
 Value ETHERTYPE (0x\d+)
-Value VLAN (.*)
+Value VLAN (\S+)
 
 Start
   ^L2VPN Name:\s${NAME}
