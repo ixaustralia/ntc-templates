@@ -1,0 +1,11 @@
+---
+parsed_sample:
+- port: '1'
+  displayname: 'PE1-PE1'
+  description: ''
+- port: '1:2'
+  displayname: 'AS65535_Nicks_Stub_O'
+  description: 'AS65535 Nicks Stub OSS API'
+- port: '3'
+  displayname: ''
+  description: ''
